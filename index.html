@@ -44,7 +44,7 @@
             <figure class="love-figure">         
                 <figcaption class="love-description-2">Фотозйомки в Києві та області. Збережу <br>ваші незабутні моменти назавжди</figcaption>
                 <img src="img/love.png" alt="love"class="love-img">
-                <button class="button-1">Замовити зйомку</button>
+                <a class="button-1" href="#popup1" >Замовити зйомку</a>
             </figure>
             <figure>  
                 <img src="./img/2_1.png" alt="about me" class="nikon">
@@ -188,7 +188,7 @@
                     <img src="./img/girl-2169467_1920 2.svg" class="photo">
                 </section>
             </figure>
-            <button class="button-2">Замовити зйомку</button>
+            <a class="button-2" href="#popup1">Замовити зйомку</a>
             <figure class="frame-4">
                 <p class="reviews">Відгуки</p>
                 <section class="mosaic_13">
@@ -213,6 +213,21 @@
                 <img src="./img/слайдер.svg" class="slider">
                 <img src="./img/Arrow 1.svg" class="arrow-1">
             </figure>    
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <form action="/resend" method="POST">
+                        <legend>Зворотній зв'язок</legend>
+                        <a class="close" href="#">&times;</a>
+                        <class class="content">
+                            <label for="">Ім'я</label>
+                            <input type="text" class="form-control" id="" name="user_name">
+                            <label>Телефон</label>
+                            <input type="number" class="form-control" id="" name="user_phone">
+                            <button type="submit" class="btn btn-primary">Замовити зйомку</button>
+                        </class>
+                    </form>
+                </div>
+            </div>
         </main>    
     <footer class="footer">
         <nav class="nav-1">
